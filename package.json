@@ -1,24 +1,19 @@
 {
-  "name": "clinica",
-  "version": "0.0.0",
-  "private": true,
+  "name": "loja",
+  "version": "1.0.0",
+  "description": "Loja Virtual",
+  "main": "listagem-produto.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "Joao Carlos",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.3",
-    "debug": "~2.6.9",
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
-    "express-flash": "0.0.2",
-    "express-myconnection": "^1.0.4",
-    "express-session": "^1.15.6",
-    "express-validator": "^5.3.1",
-    "http-errors": "^1.6.3",
-    "jade": "~1.11.0",
-    "method-override": "^3.0.0",
-    "morgan": "~1.9.0",
-    "mysql": "^2.16.0"
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "mysql": "^2.15.0"
   }
 }
